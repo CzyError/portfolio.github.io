@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-color: rgb(0, 0, 0);
+
+    
+}
+header{
+    
+    background-color: rgb(0, 0, 0);
+    /* border: 2px solid red; */
+    /* border-bottom: 1px solid rgb(255, 0, 0); */
+    /* box-shadow: 2px 2px 5px rgba(49, 33, 33, 0.559); */
+    /* box-shadow: 4px 4px 17px black; */
+    height: 10vh;
+}
+nav{
+    height: 10vh;
+    /* background-color: rgba(0, 0, 0, 0.687); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+nav .menu-btn i{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display:none;
+}
+nav .logo{
+    font-size: 33px;
+   
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* .logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    
+}
+.logo h2{
+    width: 88px;
+    padding: 0 25px;
+} */
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0px 5px;
+}
+
+nav ul li a{
+    color: rgb(254, 254, 254);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    /* background: #111; */
+    padding: 5px 19px;
+    /* margin-left: 25px; */
+    text-decoration: none;
+    border-radius: 5px;
+    /* border: 1px solid rgba(255, 0, 0, 0); */
+    border-top: 2px solid rgba(128, 0, 0, 0);
+    border-bottom: 2px solid rgba(128, 0, 0, 0);
+
+
+    /* box-shadow: 3px 3px 3px rgb(63 1 1); */
+    
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    /* background: rgb(94, 85, 222); */
+    color: rgb(255, 255, 255);
+    border-top: 2px solid rgb(94, 85, 222);
+    border-bottom: 2px solid rgb(94, 85, 222);
+}
+
+#click{
+    display: none;
+}
+
+.container-1{
+    width: 100%;
+    /* height: 100%; */
+    /* background-image: url("bodyimage.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 82vh; */
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    /* background-color: #ffffff; */
+
+}
+
+nav .logo h1{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.container-1 .profile{
+
+    margin:50px auto 20px auto;
+    border-radius: 23px 60px 0px 60px;
+   background-color: rgb(0, 0, 0);
+    width: 60vw;
+    height: 70vh;
+    border: 1px solid rgb(159, 86, 242);
+    border-left: 15px solid rgb(159, 86, 242);
+    border-right: 15px solid rgb(159, 86, 242);
+    box-shadow: 0px 2px 44px rgb(56 55 172 / 98%);
+
+    /* background-color: rgb(255, 255, 255); */
+    
+
+}
+
+
+.container-1 .profile .pro-logo{
+    width: 30vh;
+    height: 30vh;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 50%;
+    margin: 50px auto;
+
+
+}
+.container-1 .profile .pro-text{
+    /* border-bottom:1px solid black ; */
+    border-left:3px solid #111;
+    border-right:3px solid #111;
+    background-color: #00000079;
+    color: white;
+    /* font-size: 20px; */
+    text-align: center;
+    
+    margin: auto;
+    width: 70%;
+    height: 30%;
+    box-shadow: 0px 0px 32px slateblue;
+}
+.container-1 .profile .pro-text h1{
+    /* margin: 20px; */
+    line-height: 65px;
+}
+.container-1 .profile .pro-text p{
+    font-size: 15px;
+    margin: 20px auto;
+}
+
+    
+
+.container-1 .profile .pro-logo #pro-img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    margin: auto;
+}
+.container-2 .box{
+  /* margin-top: 3%; */
+  width: 95%;
+  margin: 5% auto;
+  height: 70vh;
+  /* border: 1px solid red; */
+  display: flex;
+  background-color: #0000007c;
+}
+.container-2 .box .box1{
+  width: 20%;
+  height: 80%;
+  margin: auto;
+  /* border: 1px solid green; */
+  background-color: rgb(0, 0, 0);
+  border-radius: 12px;
+  text-align: center;
+  
+  
+  
+}
+.container-2 .box .box1 .imgs{
+    margin: 10px auto 40px auto;
+    text-align: center;
+    align-items: center;
+    width: 18vw;
+    height: 18vw;
+    /* border-radius: 5px; */
+}
+.container-2 .box .box1 a{
+    /* width: 50%; */
+    padding: 7px 55px;
+    
+    border-radius: 5px;
+    /* border: 1px solid gray; */
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(37, 92, 94);
+}
+.container-2 .box .box1 button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+.container-2 .box .box1 .imgs img{
+    width: 100%;
+    height: 100%;
+
+}
+.container-2 .box .box1:hover{
+  transform: rotateZ(3deg);
+  
+  transition: all .3s ease;
+}
+.container-2 .box .box1:hover{
+  box-shadow: 0px 0px 20px #ffffff;
+  border: 1px solid rgb(119, 128, 0);
+
+  /* width: 23%; */
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    border-top: 1px solid gray;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.721);
+}
+
+@media(max-width: 940px){
+    #click:checked~.menu-btn i:before{
+        content: "\f00d";
+    }
+    header{
+        margin-top: 0px;
+    }
+    nav ul{
+        position: fixed;
+        top: 10vh;
+        left: -101%;
+        background-color: #111;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    
+    #click:checked~ul{
+        left: 0%;
+
+
+    }
+    nav ul li{
+        margin: 40px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+    }
+    nav ul li a:hover,
+    nav ul li a.active{
+    background: none;
+    color: cyan;
+    }
+    nav .menu-btn i{
+        display: block;
+    }
+    header{
+        width: 100vw;
+        
+    }
+   
+    .container-1{
+        display: inline-block;
+    }
+}
+@media(max-width: 520px){
+    .container-1 .left .box .box-box2 ul li {
+        line-height: 50px;
+        width: 50%;
+    }
+}
